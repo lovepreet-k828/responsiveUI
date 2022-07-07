@@ -21,7 +21,7 @@ function Head({ options, setSideBar, sideBar }) {
   const navItems = ['Venues', 'Venders', 'Blog', 'RealWeddings', 'Photos', 'Deals', 'Testimonials', 'Why Weddingz']
   var navList = navItems.map((navItem) => {
     return (
-      <div style={{ margin: "20px" }}>
+      <div style={{ margin: "10px" }}>
         {navItem}
       </div>
     );
@@ -33,12 +33,12 @@ function Head({ options, setSideBar, sideBar }) {
   return (
     <>
       <div>
-        <div style={{ backgroundColor: "yellow", height: "550px" }}>
-          <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <div style={{ backgroundColor: "yellow", height: "550px",width:"100%" }}>
+          <div style={{ display: "flex", justifyContent: "space-between", flexWrap:"wrap" }}>
             <div style={{ display: "flex", justifyContent:"left", width: "50%" }}>
               <Sidebtn setSideBar={setSideBar} sideBar={sideBar} />
               <div style={{ padding: "2%", fontWeight:"bold", fontSize:"20px" }}>Weddingz.in</div>
-              <select className="hide" style={{ height: "35px", width: "190px", margin: "10px" }} value={option}
+              <select className="hide" style={{ height: "35px", width: "30%", margin: "10px", backgroundColor:"rgb(0,0,0,0)" }} value={option}
                 onChange={handleChange}
                 defaultValue='Mumbai'
                 name='name'>

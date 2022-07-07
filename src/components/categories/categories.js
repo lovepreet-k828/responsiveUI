@@ -28,9 +28,9 @@ Over 20,000+ Wedding Venues and Vendors</div>
     {
       options.map((option)=>{
         return (
-          <div className="card" style={{marginBottom:"2%", backgroundColor:"yellow",height:"320px",fontSize:"20px"}}>
-            <div className="card" style={{backgroundColor:"red",height:"250px"}}></div>
-            <div >{option}</div>
+          <div className="card" style={{marginBottom:"2%", backgroundColor:"yellow",height:"270px",fontSize:"20px"}}>
+            <div className="cardImage" style={{backgroundColor:"red",height:"200px"}}></div>
+            <div className="cardText" >{option}</div>
             <div style={{display:"flex", justifyContent:"center"}}>
             <div style={{borderRight:"2px solid black",width:"50%"}}>
               {option}</div>

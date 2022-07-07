@@ -1,24 +1,27 @@
 
   @media only screen and (max-width: 600px) {
+    .cardText {
+      width: 100%;
+      height: 200px;
+      background-color: aquamarine;
+    }
+    .card {
+      width:100%;
+    }
     .cardContainer {
       margin: 0;
     }
+    .cardImage {
+      display: none;
+    }
   }
 
   @media only screen and (min-width: 600px) {
+    .cardText {
+      width: 250px;
+    }
+
     .cardContainer {
       margin: 5%;
-    }
-  }
-
-  @media only screen and (max-width: 600px) {
-    .card {
-      width: 100%;
-    }
-  }
-
-  @media only screen and (min-width: 600px) {
-    .card {
-      width: 250px;
     }
   }

@@ -27,11 +27,16 @@ Over 20,000+ Wedding Venues and Vendors</div>
     textAlign:"center", alignItems:"space-between",  flexWrap:'wrap'}}>
     {
       options.map((option)=>{
+        var image=process.env.PUBLIC_URL + `/images/${option}.jpg`;
         return (
-          <div className="card" style={{marginBottom:"2%", backgroundColor:"yellow",height:"270px",fontSize:"20px"}}>
-            <div className="cardImage" style={{backgroundColor:"red",height:"200px"}}></div>
+          <div className="card" style={{marginBottom:"2%",height:"270px",border:"none",
+          textTransform:"capitalize", fontSize:"20px"}}>
+            <div style={{height:"200px"}}>
+            <div className="cardImage" style={{background:`url(${image})`,width:"100%", height:"100%",
+             backgroundRepeat:"no-repeat"}}>{option}</div>
+            </div>
             <div className="cardText" >{option}</div>
-            <div style={{display:"flex", justifyContent:"center"}}>
+            <div style={{display:"flex", justifyContent:"center",}}>
             <div style={{borderRight:"2px solid black",width:"50%"}}>
               {option}</div>
             <div style={{width:"50%"}} >{option}</div>

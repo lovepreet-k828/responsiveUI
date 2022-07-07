@@ -6,7 +6,7 @@ import SideBar from './components/sideBar/sideBar.jsx';
 import Footer from './components/footer/footer.js';
 
 function App() {
-  const options=['Mumbai','Delhi','Jalandhar','Amritsar','Patiala'];
+  const options=['mumbai','delhi','jalandhar','hyderabad','bangalore'];
   
   const [sideBar, setSideBar] = useState(false);
   

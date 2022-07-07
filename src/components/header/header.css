@@ -22,3 +22,9 @@
       display: none;
     }
   }
+
+  .mainNav{
+    background: url(/public/images/main.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }

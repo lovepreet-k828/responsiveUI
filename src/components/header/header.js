@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Sidebtn from '../sideBtn/Sidebtn';
 // import { Link } from 'react-router-dom';
 import './header.css';
-
+import mainImage from "../../images/main.jpg";
 function Head({ options, setSideBar, sideBar }) {
   
   var ops = options.map((op) => {
@@ -33,12 +33,13 @@ function Head({ options, setSideBar, sideBar }) {
   return (
     <>
       <div>
-        <div style={{ backgroundColor: "yellow", height: "550px",width:"100%" }}>
+        <div className='mainNav' style={{ minHeight: "550px", minWidth:"100%",color:"white" }}>
           <div style={{ display: "flex", justifyContent: "space-between", flexWrap:"wrap" }}>
             <div style={{ display: "flex", justifyContent:"left", width: "50%" }}>
               <Sidebtn setSideBar={setSideBar} sideBar={sideBar} />
               <div style={{ padding: "2%", fontWeight:"bold", fontSize:"20px" }}>Weddingz.in</div>
-              <select className="hide" style={{ height: "35px", width: "30%", margin: "10px", backgroundColor:"rgb(0,0,0,0)" }} value={option}
+              <select className="hide" style={{ height: "35px", width: "30%", margin: "10px", textTransform:"capitalize",
+              backgroundColor:"rgb(0,0,0,0)",color:"white",borderColor:"white",paddingRight:"1%",paddingLeft:"1%" }} value={option}
                 onChange={handleChange}
                 defaultValue='Mumbai'
                 name='name'>
@@ -59,9 +60,9 @@ function Head({ options, setSideBar, sideBar }) {
           </nav>
           <div style={{
             display: "flex", flexDirection: "column", height:"60%",
-            justifyContent: "center", alignItems: "center",
+            justifyContent: "center", alignItems: "center",paddingTop:"3%"
           }}>
-            <h2 style={{ textAlign: "center", fontWeight: "bold" }}>
+            <h2 style={{ textAlign: "center",}}>
               Plan Your Wedding With<br />
               India's Largest Wedding Co.
             </h2>

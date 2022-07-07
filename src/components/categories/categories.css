@@ -1,18 +1,13 @@
 
   @media only screen and (max-width: 600px) {
     .cardText {
-      width: 100%;
-      height: 200px;
-      background-color: aquamarine;
+      display: none;
     }
     .card {
       width:100%;
     }
     .cardContainer {
       margin: 0;
-    }
-    .cardImage {
-      display: none;
     }
   }
 
@@ -23,5 +18,8 @@
 
     .cardContainer {
       margin: 5%;
+    }
+    .cardImage {
+    color: rgb(0,0,0,0)
     }
   }

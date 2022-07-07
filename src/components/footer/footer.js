@@ -40,7 +40,7 @@ export default function Footer() {
         {/* <!-- Copyright --> */}
         <div className="text-center p-3 footext">
           © 2022 Copyright:
-          <span className="text-white" > TechniFarm.com </span>
+          <span className="text-white" > Weddingz.com </span>
         </div>
         {/* <!-- Copyright --> */}
       </footer>

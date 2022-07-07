@@ -2,13 +2,14 @@
     .hide {
       display: none;
       }
+      .mainNav{height:250px;}
   }
 
   @media only screen and (min-width: 800px) {
     .hide {
       width:30%;
     }
-    .mainNav{height:550px;}
+    
   }
 
   @media only screen and (min-width: 700px) {
@@ -16,13 +17,13 @@
       padding-left: auto;
       width:50%;
     }
+    .mainNav{height:550px;}
   }
 
   @media only screen and (max-width: 800px) {
     .earlyhide {
       display: none;
     }
-    .mainNav{height:250px;}
   }
 
   .mainNav{

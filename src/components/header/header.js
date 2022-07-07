@@ -45,28 +45,28 @@ function Head({ options, setSideBar, sideBar }) {
                 {ops}
               </select>
             </div>
-            <div className="hide" style={{ width: "30%" }}>
-              <div style={{ display: 'flex', width: "100%", justifyContent: "space-evenly", alignItems: "center" }}>
+            <div className="hide" >
+              <div style={{ display: 'flex', justifyContent:"end", marginRight:"5%", alignItems: "center" }}>
                 <div style={{ margin: "5px" }}>view Magzine</div>
                 <div style={{ margin: "5px" }}>download app</div>
                 <div style={{ margin: "5px" }}>List Your Bussiness</div>
               </div>
             </div>
           </div>
-          <nav className="hide" >
+          <nav className="earlyhide" >
             <div style={{ width: '100%', display: "flex", marginBottom: "80px", position: "sticky", top: "0" }}>
               {navList}</div>
           </nav>
           <div style={{
-            display: "flex", flexDirection: "column",
+            display: "flex", flexDirection: "column", height:"60%",
             justifyContent: "center", alignItems: "center",
           }}>
-            <div style={{ textAlign: "center", fontSize: "40px", fontWeight: "bold" }}>
+            <h2 style={{ textAlign: "center", fontWeight: "bold" }}>
               Plan Your Wedding With<br />
               India's Largest Wedding Co.
-            </div>
+            </h2>
             <select style={{
-              height: "45px", width: "520px", margin: "10px",
+              height: "45px", width: "30%", margin: "10px",
               padding: "5px", borderRadius: "5px", fontWeight: "bold"
             }} value={option}
               onChange={handleChange}

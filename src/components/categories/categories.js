@@ -23,13 +23,13 @@ Over 20,000+ Wedding Venues and Vendors</div>
       <div><i>Get upto 30% off</i></div>
     </div>
     
-    <div style={{display:"flex",justifyContent:"space-evenly", 
-    textAlign:"center", alignItems:"space-between", margin:"5%", flexWrap:'wrap'}}>
+    <div className="cardContainer" style={{display:"flex",justifyContent:"space-evenly", 
+    textAlign:"center", alignItems:"space-between",  flexWrap:'wrap'}}>
     {
       options.map((option)=>{
         return (
-          <div style={{marginBottom:"2%", backgroundColor:"yellow",width:"250px",height:"320px",fontSize:"20px"}}>
-            <div style={{backgroundColor:"red",width:"250px",height:"250px"}}></div>
+          <div className="card" style={{marginBottom:"2%", backgroundColor:"yellow",height:"320px",fontSize:"20px"}}>
+            <div className="card" style={{backgroundColor:"red",height:"250px"}}></div>
             <div >{option}</div>
             <div style={{display:"flex", justifyContent:"center"}}>
             <div style={{borderRight:"2px solid black",width:"50%"}}>

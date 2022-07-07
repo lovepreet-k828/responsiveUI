@@ -1,5 +1,24 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .hide {
+      display: none;
+      }
+  }
+
+  @media only screen and (min-width: 800px) {
+    .hide {
+      width:30%;
+    }
+  }
+
+  @media only screen and (min-width: 700px) {
+    .hide {
+      padding-left: auto;
+      width:50%;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .earlyhide {
       display: none;
     }
   }

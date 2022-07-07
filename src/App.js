@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Router>
-        <div style={{ minWidth: "100vh", overflowX: "scrole" }}>
+        <div>
           <Head options={options} sideBar={sideBar} setSideBar={setSideBar}/>
           <SideBar sideBar={sideBar} setSideBar={setSideBar} />
           <Routes>

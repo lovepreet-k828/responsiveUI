@@ -33,7 +33,7 @@ function Head({ options, setSideBar, sideBar }) {
   return (
     <>
       <div>
-        <div className='mainNav' style={{ minHeight: "550px", minWidth:"100%",color:"white" }}>
+        <div className='mainNav' style={{ minWidth:"100%",color:"white" }}>
           <div style={{ display: "flex", justifyContent: "space-between", flexWrap:"wrap" }}>
             <div style={{ display: "flex", justifyContent:"left", width: "50%" }}>
               <Sidebtn setSideBar={setSideBar} sideBar={sideBar} />
